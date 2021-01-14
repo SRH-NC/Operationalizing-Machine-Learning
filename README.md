@@ -5,7 +5,7 @@ The objective in this project is to leverage Azure and Azure ML studio to config
 ## Architectural Diagram
 
 Select the link below to view the architectural diagram
-![](images/ML_Pipeline_Project_Arch_Diagram.png)
+![](screenshots/Deploy_Model/ML_Pipeline_Project_Arch_Diagram.png)
 
 ## Screenshots 
 
@@ -13,12 +13,19 @@ Screen shots for Deploy model in Azure ML studio:
 
 Create a new AutoML run:
 * “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available
+![](screenshots/Deploy_Model/Project_2_Bank_Marketing_Dataset_1.png)
+
+![](screenshots/Deploy_Model/Project_2_Bank_Marketing_Dataset_2.png)
+
 * The experiment is shown as completed
+![](screenshots/Deploy_Model/Project_2_Bank_Marketing_Experiment_Completed.png)
+
 Deploy model and consume endpoint via HTTP API:
 * Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”.
 * Logging is enabled by running the provided logs.py script
 * Swagger runs on localhost showing the HTTP API methods and responses for the model
 * endpoint.py script runs against the API producing JSON output from the model.
+
 
 
 Publish an ML Pipeline:
