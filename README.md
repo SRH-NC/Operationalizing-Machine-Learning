@@ -36,7 +36,8 @@ Create and publish a pipeline:
 * The Bankmarketing dataset with the AutoML module
 ![](screenshots/Publish_Model/Bank_market_input_dataset_with_AutoML.png)
 * The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
-![](screenshots/Publish_Model/Published_Pipeline_Overview_with_REST endpoint.png)
+![](screenshots/Publish_Model/Published_Pipeline_Overview_with_REST%20endpoint.png)
+
 Configure a pipeline w/ SDK
 * A screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs
 ![](screenshots/Publish_Model/Run_details_widget_1.png)
