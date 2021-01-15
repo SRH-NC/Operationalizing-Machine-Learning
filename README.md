@@ -21,11 +21,14 @@ Create a new AutoML run:
 ![](screenshots/Deploy_Model/Project_2_Bank_Marketing_Experiment_Completed.png)
 
 Deploy model and consume endpoint via HTTP API:
-* Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”.
+* Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”
+![](screenshots/Deploy_Model/Endpoint_Application_Insights_True.png)
 * Logging is enabled by running the provided logs.py script
+![](screenshots/Deploy_Model/Logs_python_script_run_results.png)
 * Swagger runs on localhost showing the HTTP API methods and responses for the model
+![](screenshots/Deploy_Model/Swagger_runs_on_localhost.png)
 * endpoint.py script runs against the API producing JSON output from the model.
-
+![](screenshots/Deploy_Model/Endpoint_Application_Insights_True.png)
 
 
 Publish an ML Pipeline:
@@ -120,7 +123,7 @@ Here is a link to a screen recording of the project in action that demonstrates 
 
 https://vimeo.com/500031045/befc66c7e3 
 
-Authentication 
+Steps in Video:
 Build Auto-ML Model 
 Deploy the best model 
 Consume model endpoints 
