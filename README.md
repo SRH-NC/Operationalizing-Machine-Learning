@@ -51,13 +51,13 @@ Use REST endpoint to interact with Pipeline
 
 The key steps in the model are:
 
-Authentication - is the process of confirming the identiy of person or authenticity of a process attempting to access a system. It is critical for the continuous flow of operations in a CI/CD system.
-Build Auto-ML Model - is the process of using AutoML to automate the time consuming, iterative task of ML model development
-Deploy the best model - selecting from a experiment the model with the best performance based on the metric (e.g. Accuracy) defined to deploy to production
-Enable Logging and Appication Insights - Logging is capturing informational output produced by the software and Application Insights is an Azure service which provides key facts about an application
-Consume model endpoints - other services interact with deployed models by using endpoints 
-Create and publish pipelines - pipelines are a way to automate workflows so the ML lifecycle can be managed more efficiently
-Document - Documentation allows others to better understand the architecture, implementation, and coding detils for a ML project
+* Authentication - is the process of confirming the identiy of person or authenticity of a process attempting to access a system. It is critical for the continuous flow of operations in a CI/CD system.
+* Build Auto-ML Model - is the process of using AutoML to automate the time consuming, iterative task of ML model development
+* Deploy the best model - selecting from a experiment the model with the best performance based on the metric (e.g. Accuracy) defined to deploy to production
+* Enable Logging and Appication Insights - Logging is capturing informational output produced by the software and Application Insights is an Azure service which provides key facts about an application
+* Consume model endpoints - other services interact with deployed models by using endpoints 
+* Create and publish pipelines - pipelines are a way to automate workflows so the ML lifecycle can be managed more efficiently
+* Document - Documentation allows others to better understand the architecture, implementation, and coding detils for a ML project
 
 ## Key Steps
 Below are specific steps performend at each stage in the process.  
@@ -124,11 +124,11 @@ Here is a link to a screen recording of the project in action that demonstrates 
 https://vimeo.com/500031045/befc66c7e3 
 
 Steps in Video:
-Build Auto-ML Model 
-Deploy the best model 
-Consume model endpoints 
-Create and publish pipelines
-Use Postman to query model with REST api
+* Build Auto-ML Model 
+* Deploy the best model 
+* Consume model endpoints 
+* Create and publish pipelines
+* Use Postman to query model with REST api
 
 ## How to improve the model in the future
 
