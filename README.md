@@ -26,7 +26,7 @@ Deploy model and consume endpoint via HTTP API:
 * Swagger runs on localhost showing the HTTP API methods and responses for the model
 ![](screenshots/Deploy_Model/Swagger_runs_on_localhost.png)
 * endpoint.py script runs against the API producing JSON output from the model.
-![](screenshots/Deploy_Model/Endpoint_Application_Insights_True.png)
+![](screenshots/Deploy_Model/Endpoint_python_script_run_results.png)
 
 
 Publish an ML Pipeline:
@@ -35,8 +35,9 @@ Create and publish a pipeline:
 ![](screenshots/Publish_Model/Pipeline_Created.png)
 * The Bankmarketing dataset with the AutoML module
 ![](screenshots/Publish_Model/Bank_market_input_dataset_with_AutoML.png)
-* The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
-![](screenshots/Publish_Model/Published_Pipeline_Overview_with_REST%20endpoint.png)
+* The pipeline section showing Pipeline created 
+![](screenshots/Publish_Model/Pipeline_Run_Section_Showing_Pipeline_Created.png)
+
 
 Configure a pipeline w/ SDK
 * A screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs
@@ -47,6 +48,10 @@ Use REST endpoint to interact with Pipeline
 ![](screenshots/Publish_Model/ML_Studio_showing_pipeline_endpoint__Active.png)
 * ML studio showing the scheduled run
 ![](screenshots/Publish_Model/ML_Studio_showing_scheduled_run_completed.png)
+* The pipeline section showing Pipeline Endpoint Created
+![](screenshots/Publish_Model/Pipeline_Section_Showing_Pipeline_Created.png)
+* Query the REST endpoing using Postman and show results
+![](screenshots/Publish_Model/Query_model_with_REST_API_via_Postman.png)
 
 
 The key steps in the model are:
